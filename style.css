@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --text-color: #3373d9;
+  --text1-color: #7a7b7e;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary-color);
+  margin-top: 3rem;
+}
+.title p {
+  font-size: 0.7rem;
+  color: var(--primary-color);
+  text-align: center;
+}
+.title span {
+  font-size: 2.2rem;
+}
+.langs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.single {
+  font-weight: 600;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0.6rem;
+  /* background-color: var(--text1-color); */
+  padding: 0.3rem 0.2rem;
+}
+.single:hover {
+  background-color: lightgrey;
+}
+.single a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.single p {
+  color: var(--text1-color);
+  font-size: 0.6rem;
+}
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.1rem;
+}
+.input-field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--text1-color);
+  border-right: none;
+}
+.input-section input {
+  border: none;
+  outline: none;
+  color: var(--secondary-color);
+  font-size: 0.7rem;
+  padding: 0.7rem;
+  width: 100%;
+}
+.input-section button {
+  background-color: var(--text-color);
+  color: var(--secondary-color);
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+.input-section svg {
+  fill: var(--secondary-color);
+}
+.search button {
+  outline: none;
+  padding: 0.3rem 2rem;
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+#countrys {
+  border: none;
+  outline: none;
+  background-color: var(--secondary-color);
+}
+hr {
+  width: 98%;
+  margin-top: 2rem;
+  border: 1px solid rgb(229, 227, 227);
+}
